@@ -20,7 +20,9 @@ public abstract class Despesa {
     }
 
     void cadastrarDespesa(){
-    Scanner descricao = new Scanner(System.in);
+    Scanner ADDdescricao = new Scanner(System.in);
+    System.out.println("Digite a descrição: ");
+    descricao = ADDdescricao.nextLine();
     valorTotal = 0;
 }
 abstract void calcularDepesa();
