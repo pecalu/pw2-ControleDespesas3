@@ -1,3 +1,4 @@
+import java.util.Scanner;
 public abstract class Despesa {
     private String descricao;
     private double valorTotal;
@@ -19,7 +20,7 @@ public abstract class Despesa {
     }
 
     void cadastrarDespesa(){
-    this.descricao = descricao;
+    Scanner descricao = new Scanner(System.in);
     valorTotal = 0;
 }
 abstract void calcularDepesa();

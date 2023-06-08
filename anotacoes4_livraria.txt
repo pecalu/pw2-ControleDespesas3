@@ -1,0 +1,9 @@
+usar metodo abstrato para que seja obrigatorio em todas as classes que estejam 
+usando o extend igual livro_digital é um extends do livro.
+
+usar quando o desconto for diferente pra todos 'polimoforfismo'
+
+metodo na uml: escrever em italico ou escrever <abstract>
+
+no intelij usar hhtp
+usar ssh apenas no git bash diretament   --  pq usam diferentes metodos de autenticacoes
